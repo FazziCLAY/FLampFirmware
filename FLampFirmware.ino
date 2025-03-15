@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: Apache-2.0
 /*
    Firmware for my Arduino socket connected 24/7 to my laptop USB
    Copyright (c) 2025, Stanislav Mironov <fazziclay@gmail.com>
