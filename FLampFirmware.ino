@@ -5,7 +5,7 @@
    https://fazziclay.com/?p=flampfirmware
 */
 
-#include <EEPROM.h>
+
 
 // settings
 #define PIN_RELAY 2
@@ -36,6 +36,10 @@
 #define EEPROM_ON 94
 #define EEPROM_OFF 255
 #define EEPROM_ADDR 10
+
+#if FEATURE_EEPROM
+#include <EEPROM.h>
+#endif
 
 static bool status = false;
 
